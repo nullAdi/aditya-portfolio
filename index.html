@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="description" content="Portfolio of Aditya Shekhar - Full Stack Developer">
+<meta name="keywords" content="developer, portfolio, web development, programming">
+<meta property="og:title" content="Aditya Shekhar - Portfolio">
+<meta property="og:description" content="Full Stack Developer Portfolio">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body data-theme="light">
+  <!-- Background shapes -->
+  <div class="bg-shape"></div>
+  <div class="bg-shape"></div>
+  <div class="bg-shape"></div>
+
+  <header>
+    <nav>
+      <div class="logo-text">🎨 My Portfolio</div>
+      <ul>
+        <li><a href="#hero">🏠 Home</a></li>
+        <li><a href="#skills">⚡ Skills</a></li>
+        <li><a href="#education">🎓 Education</a></li>
+        <li><a href="#projects">🚀 Projects</a></li>
+        <li><a href="#internship">💼 Experience</a></li>
+        <li><button class="dark-mode-toggle" id="darkModeToggle" title="Toggle Dark Mode">🌙</button></li>
+        <li><button class="mobile-menu-toggle" id="mobileMenuToggle" title="Toggle Menu">☰</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <h1>Hey there! I'm a Creative Developer</h1>
+    <p>Building amazing digital experiences with code and creativity! ✨</p>
+
+    <!-- Scattered floating logos -->
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" class="floating-logo" alt="JavaScript">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" class="floating-logo" alt="TypeScript">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" class="floating-logo" alt="VSCode">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" class="floating-logo" alt="C">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" class="floating-logo" alt="C++">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" class="floating-logo" alt="Python">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" class="floating-logo" alt="React">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" class="floating-logo" alt="Node.js">
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>🎨 Frontend Magic</h3>
+        <p>React, JavaScript, TypeScript, HTML5, CSS3</p>
+        <div class="skill-level">
+          <div class="skill-level-fill" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>⚙️ Backend Wizardry</h3>
+        <p>Node.js, Python, Express.js, REST APIs</p>
+        <div class="skill-level">
+          <div class="skill-level-fill" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>🗄️ Database Mastery</h3>
+        <p>MongoDB, MySQL, PostgreSQL</p>
+        <div class="skill-level">
+          <div class="skill-level-fill" style="width: 80%;"></div>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>🚀 DevOps & Tools</h3>
+        <p>Docker, Git, AWS, Linux</p>
+        <div class="skill-level">
+          <div class="skill-level-fill" style="width: 75%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>💡 Cool Things I've Built</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>🛒 E-Commerce Platform</h3>
+        <p>A full-stack e-commerce website with user authentication, payment integration, and admin dashboard.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">MongoDB</span>
+          <span class="tech-tag">Stripe</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>📝 Task Management App</h3>
+        <p>A collaborative task management application with real-time updates and team collaboration features.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">Socket.io</span>
+          <span class="tech-tag">Express</span>
+          <span class="tech-tag">PostgreSQL</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <h3>🌤️ Weather Dashboard</h3>
+        <p>A responsive weather application with location-based forecasts and interactive maps.</p>
+        <div class="tech-stack">
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Weather API</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">Chart.js</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="internship" class="section">
+    <h2>💼 My Adventure</h2>
+    <div class="internship-item">
+      <h3>Software Development Intern</h3>
+      <div class="position">Full Stack Developer</div>
+      <div class="duration">June 2022 - November 2023</div>
+      <p>Reviving India IT Company</p>
+      <ul>
+        <li>Developed responsive web applications using React and Node.js</li>
+        <li>Collaborated with senior developers on feature implementation</li>
+        <li>Participated in code reviews and agile development processes</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <h2>📚 My Learning Journey</h2>
+    <div class="education-item">
+      <h3>Bachelor of Computer Application</h3>
+      <div class="degree">BCA</div>
+      <p> Patliputra University</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Creative Portfolio. Made with ❤️ and lots of coffee!</p>
+    <div class="social-links">
+      <a href="https://github.com/nullAdi">🔗 GitHub</a>
+      <a href="https://www.linkedin.com/in/aditya-shekhar-33706625b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">💼 LinkedIn</a>
+      <a href="adityashekhar862@gmail.com">📧 Email</a>
+    </div>
+  </footer>
+
+  <script>
+    // Dark Mode Toggle Functionality
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    // Check for saved theme preference or default to light mode
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    body.setAttribute('data-theme', savedTheme);
+    updateToggleIcon(savedTheme);
+
+    darkModeToggle.addEventListener('click', function() {
+      const currentTheme = body.getAttribute('data-theme');
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+      body.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateToggleIcon(newTheme);
+    });
+
+    function updateToggleIcon(theme) {
+      darkModeToggle.textContent = theme === 'light' ? '🌙' : '☀️';
+      darkModeToggle.title = theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode';
+    }
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Add scroll effect to header
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('header');
+      if (window.scrollY > 100) {
+        header.style.background = 'rgba(255, 255, 255, 0.15)';
+        header.style.backdropFilter = 'blur(20px)';
+      } else {
+        header.style.background = 'rgba(255, 255, 255, 0.1)';
+        header.style.backdropFilter = 'blur(15px)';
+      }
+    });
+
+    // Mobile menu toggle functionality
+    const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+    const navUl = document.querySelector('nav ul');
+
+    mobileMenuToggle.addEventListener('click', function() {
+      navUl.classList.toggle('active');
+
+      // Update button icon
+      if (navUl.classList.contains('active')) {
+        mobileMenuToggle.textContent = '✕';
+        mobileMenuToggle.title = 'Close Menu';
+      } else {
+        mobileMenuToggle.textContent = '☰';
+        mobileMenuToggle.title = 'Open Menu';
+      }
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function() {
+        if (window.innerWidth <= 480) {
+          navUl.classList.remove('active');
+          mobileMenuToggle.textContent = '☰';
+          mobileMenuToggle.title = 'Open Menu';
+        }
+      });
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(event) {
+      if (window.innerWidth <= 480 &&
+          !event.target.closest('nav') &&
+          navUl.classList.contains('active')) {
+        navUl.classList.remove('active');
+        mobileMenuToggle.textContent = '☰';
+        mobileMenuToggle.title = 'Open Menu';
+      }
+    });
+  </script>
+</body>
+</html>
